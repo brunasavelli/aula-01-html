@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+KR:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.merriweather-light {
+    font-family: "Merriweather", sans-serif;
+    font-style: normal;
+  }
+
+/*Reset CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: "Merriweather", sans-serif;
+    color: #4b4b4b;
+    padding: 10px;
+}
+
+header {
+    background: #8cdbff;
+    border-radius: 6px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*Vertical*/
+    align-items: center; /*Horizontal*/
+}
