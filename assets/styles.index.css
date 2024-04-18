@@ -50,3 +50,24 @@ aside {
     height: 100%;
     width: 25%;
 }
+
+footer {
+    background: #00459365;
+    border-radius: 6px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #f1f1f1;
+    font-size: 1.2rem;;
+}
+
+footer a {
+    color:#f1f1f1;
+    text-decoration: none;
+    font-weight: 500;
+}
